@@ -1,0 +1,31 @@
+p.search {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+table.search {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+input[type="switch"]:disabled + label::before {
+    background: gray;
+}
+
+input[type="switch"]:enabled + label::before {
+    background: gray;
+}
+
+input[type="switch"]:disabled + label:hover::before {
+    background: gray;
+    border: 1px solid #d4d4d5;
+}
+
+input[type="switch"]:enabled + label:hover::before {
+    background: gray;
+    border: 1px solid #d4d4d5;
+}
